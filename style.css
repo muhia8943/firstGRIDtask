@@ -1,0 +1,159 @@
+.main{
+    padding: 50px;
+    
+
+}
+.container{
+    
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, 1fr); 
+    grid-template-areas: 
+        'p p c'
+        'w r c';
+    
+}
+.container .picture img{
+    width: 750px;
+    height: 250px;
+}
+.picture{
+    grid-area: p;
+}
+.web{
+    font-style: italic;
+    grid-area: w;
+
+}
+.read{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-area: r;
+
+}
+.read button{
+    background-color: black;
+    color: aliceblue;
+    
+}
+.containertwo{
+    background-color: rgb(1, 1, 33);
+    display: flex;
+    flex-direction: column;
+    grid-area: c;
+
+}
+.new h4{
+    color: rgb(243, 243, 238);
+
+}
+.new h2{
+    color: rgba(152, 152, 23, 0.758);
+}
+.downside h4{
+     color: rgba(152, 152, 23, 0.758);
+
+}
+.new p{
+    color: gray;
+}
+.funding{
+
+}
+.downside p{
+    color: gray;
+}
+.funding h4{
+    color: aliceblue;
+}
+.funding p{
+    color: gray;
+}
+.containerthree{
+    display: flex;
+    align-content: stretch;
+}
+.reviving{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        'fp fh'
+        'fp fv'
+        'fp fl';
+
+}
+.firstpic{
+    grid-area: fp;
+
+}
+.firstpic img{
+   
+}
+.firstheading{
+    grid-area: fh;
+
+}
+.firstparagraph{
+    grid-area: fv;
+
+}
+.firstparagraphh{
+    grid-area: fl;
+
+}
+.laptops{
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        'sp sh'
+        'sp sg'
+        'sp sd'
+
+}
+.secondpic{grid-area: sp;
+
+}
+.secondheading{
+    grid-area: sh;
+    
+
+}
+.secondheadingg{
+    grid-area: sg;
+    color: red;
+    padding-top: 10px;
+
+}
+.secondparagraph{grid-area: sd;
+
+}
+.secondpic img{
+    
+}
+.gaming{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        'tp th'
+        'tp tg'
+        'tp ts' ;
+}
+.thirdpic{
+    grid-area: tp;
+
+}
+.thirdheading{
+    grid-area: th;
+}
+.thirdheadingg{
+    grid-area: tg;
+}
+.thirdpaparagraph{
+    grid-area: ts;
+}
+
